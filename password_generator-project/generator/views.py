@@ -17,7 +17,7 @@ def password(request):
 
     alp = list('absdefghijklmnopqrstuvwxyz')
     upp = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
-    chrr = list('!@#$%^&*')
+    chrr = list('!@#$%^&*()')
     num = list('1234567890')
 
     lenght_password = int(request.GET.get("lenght"))
